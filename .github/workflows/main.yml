@@ -51,4 +51,4 @@ jobs:
         with:
           images: caiquerossetto/rotten-potatoes:${{ github.run_number }}
           manifests: |
-            deployment.yaml
+            rotten-potatoes/k8s/deployment.yaml
