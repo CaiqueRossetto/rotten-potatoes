@@ -31,5 +31,5 @@ jobs:
           push: true
           tags: |
             caiquerossetto/rotten-potatoes:latest
-            caiquerossetto/rotten-potatoes:{{ github.run_number }}
+            caiquerossetto/rotten-potatoes:${{ github.run_number }}
       
